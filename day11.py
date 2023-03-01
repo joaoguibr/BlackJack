@@ -20,6 +20,7 @@ def calculate_score(list_of_cards):
 
 
 def compare(user_scores, computer_scores):
+    """Returns the answer of who will win"""
     if user_scores == computer_scores:
         return 'Draw'
     elif computer_scores == 0:
@@ -37,6 +38,7 @@ def compare(user_scores, computer_scores):
 
 
 def play_game():
+    """Return all the logic of the game"""
     print(logo)
     user_cards = []
     computer_cards = []
